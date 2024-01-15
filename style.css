@@ -1,0 +1,112 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/* NAV SECTION  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 87px 120px 0 120px;
+    border: 2px solid tomato;
+}
+
+nav h2 {
+    color: #3A3A3A;
+
+    font-family: Poppins;
+    font-size: 1.80rem;
+
+    font-weight: 700;
+
+}
+
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+    list-style: none;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+}
+
+
+nav>ul>li a {
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+nav>ul>img {
+    gap: 20px;
+}
+
+/* BANNER SECTION  */
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 85px 120px 0 120px;
+
+
+
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 52px;
+
+    font-weight: 700;
+
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+.banner-image {
+    background-image: url('/images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background: position 100px;
+    /* border: 5px solid seagreen; */
+    /* position: relative; */
+    /* padding-left: 70px;
+    padding-right: 100px;
+    width: 300px; */
+    /* height: 300px; */
+
+
+
+
+
+}
+
+.primary-btn {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    border-radius: 41px;
+    background: #E02C6D;
+    font-weight: 700;
+
+}
